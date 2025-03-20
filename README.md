@@ -33,7 +33,9 @@ should be combined into a single file ./processed_data/tracks.json.gz
 **What we look for**
 
 - Can you handle all subfolders in a single pass over the raw data files?
-- How can you limit memory consumption? (hint `chunksize`)
+- What if the file sizes are in GigaBytes? Can your code (if run on a standard laptop) load the files without going out of memory? (hint `chunksize`)
+- Can you identify edge cases? What scenarios could break your code?
+
 
 ### Data Wrangling
 For this section, we'll pretend you loaded the raw data plus additional tables into a small SQLite database containing roughly a dozen tables. **We've provided this database for you so don't worry about loading it yourself**. If you are not familiar with the SQLite database, it uses a fairly complete and standard SQL syntax, though does not many advanced analytics functions. Consider it just a remote datastore for storing and retrieving data from. 
