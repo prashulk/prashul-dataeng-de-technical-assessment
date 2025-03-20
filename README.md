@@ -35,6 +35,7 @@ should be combined into a single file ./processed_data/tracks.json.gz
 - Can you handle all subfolders in a single pass over the raw data files?
 - What if the file sizes are in GigaBytes? Can your code (if run on a standard laptop) load the files without going out of memory? (hint `chunksize`)
 - Can you identify edge cases? What scenarios could break your code?
+
 Please directly respond to the above questions in your submission.
 
 ### Data Wrangling
