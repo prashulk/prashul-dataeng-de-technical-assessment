@@ -43,7 +43,7 @@ For this section, we'll pretend you loaded the raw data plus additional tables i
 
 ![](db-diagram.png)
 
-## Data Processing (40 minutes)
+## Data Processing
 Process the files in ./raw_data/ to combine them into a single json.gz file per subfolder
 
 **Example**
@@ -56,7 +56,7 @@ Files
 
 should be combined into a single file ./processed_data/tracks.json.gz
 
-## Data Wrangling (20 minutes)
+## Data Wrangling
 
 1. How many different customers are there?
 2. How long is the longest track in minutes?
